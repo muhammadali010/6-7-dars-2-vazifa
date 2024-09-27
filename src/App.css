@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h3 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #666;
+}
+
+.loader {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
